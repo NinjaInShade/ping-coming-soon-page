@@ -34,12 +34,15 @@
         <div class="container">
           <h1 class="header-title">We are launching <span>soon!</span></h1>
           <p class="body-text header-description">Subscribe and get notified</p>
-          <form class="header-form">
-            <input type="text" placeholder="Your email address..." class="body-s-text header-input" />
+          <form class="header-form" id="subscribe-form" onsubmit="validateForm(event)">
+            <input type="text" placeholder="Your email address..." class="body-s-text header-input" name="email" />
+            <p class="small header-error-text" id="email-error">Form is valid</p>
             <button class="btn btn-primary" type="submit">Notify Me</button>
           </form>
         </div>
       </header>
     </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>

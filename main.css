@@ -34,6 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: stretch;
+  position: relative;
 }
 
 .header-input {
@@ -53,4 +54,18 @@
 
 .header-input::placeholder {
   color: var(--dark-pale-blue);
+}
+
+.header-input-error {
+  border: 1px solid var(--error);
+}
+
+.header-error-text {
+  visibility: hidden;
+  font-style: italic;
+  color: var(--error);
+}
+
+.header-error-text-visible {
+  visibility: visible;
 }

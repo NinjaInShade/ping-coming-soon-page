@@ -14,8 +14,11 @@
   /* Primary */
   --blue: #4c7bf3;
   --blue-hover: #8eabf7;
+
   --pale-blue: #c2d3ff;
   --dark-pale-blue: #b8c7ed;
+
+  --error: #ff5466;
 
   /* Neutral */
   --black: #15202a;
