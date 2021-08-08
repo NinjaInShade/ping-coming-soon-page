@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -12,38 +12,65 @@
   font-size: 16px;
 
   /* Primary */
+  --blue: #4c7bf3;
+  --pale-blue: #c2d3ff;
+  --dark-pale-blue: #b8c7ed;
 
   /* Neutral */
+  --black: #15202a;
+  --gray: #969696;
 
   /* Typography */
-  --h1: 1.75rem;
+  --h1: 3rem;
+  --h1-line-height: 60px;
 
-  --body: 1rem;
-  --body-line-height: 26px;
+  --body: 1.25rem;
+
+  --body-s: 1rem;
+  --body-s-line-height: 20px;
+
+  --button: 1rem;
+
+  --small: 0.75rem;
 }
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
   font-size: var(--h1);
-  font-weight: 900;
+  line-height: var(--h1-line-height);
 }
 
 .body-text {
   font-size: var(--body);
-  line-height: var(--body-line-height);
 }
+
+.body-s-text {
+  font-size: var(--body-s);
+  line-height: var(--body-s-line-height);
+}
+
+.small-text {
+  font-size: var(--small);
+}
+
 @media (max-width: 375px) {
   :root {
-    --h1: 22px;
+    --h1: 1.375rem;
+    --h1-line-height: 32px;
 
-    --body: 0.938rem;
-    --body-line-height: 25px;
+    --body: 0.75rem;
+
+    --body-s: 0.75rem;
+    --body-s-line-height: 16px;
+
+    --button: 0.75rem;
+
+    --small: 0.625rem;
   }
 }
