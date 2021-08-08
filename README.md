@@ -28,13 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_active_solution.png)
+![](./screenshots/Mobile_solution.png)
+![](./screenshots/Mobile_active_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-coming-soon-page-with-form-validation-NebfmbnK3)
+- Live Site URL: (https://lm-ping-coming-soon-page.netlify.app/)
 
 ## My process
 
@@ -46,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I learnt a different way to grab form elements for validating. Normally, I'd just id's but this time I used a different approach, found in "main.js". It was refreshing using vanilla js to handle a form as I'm so used to using react and state and no document get element by this and that, so it was nice. I practiced making sure everything is accessible and tabbable as well.
 
 ## Author
 
