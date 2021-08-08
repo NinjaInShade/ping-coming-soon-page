@@ -65,7 +65,7 @@
   position: absolute;
   font-style: italic;
   color: var(--error);
-  bottom: -30px;
+  bottom: -25px;
   left: 30px;
 }
 
@@ -129,4 +129,41 @@
 
 .footer-copyright {
   color: var(--gray);
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding-bottom: 36px;
+  }
+
+  .navbar-logo {
+    max-width: 56px;
+  }
+
+  .header-description {
+    margin: 15px 0 32px 0;
+  }
+
+  .header-form {
+    flex-direction: column;
+  }
+
+  .header-input {
+    margin: 0 0 10px 0;
+    padding: 13px 30px;
+  }
+
+  .header-img-section {
+    padding: 72px var(--horizontal-s-padding) 120px var(--horizontal-s-padding);
+  }
+
+  .social-links-list {
+    margin-bottom: 27px;
+  }
+
+  .header-error-text {
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
 }
