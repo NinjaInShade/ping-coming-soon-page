@@ -72,3 +72,12 @@
 .header-error-text-visible {
   visibility: visible;
 }
+
+.header-img-section {
+  padding: 95px var(--horizontal-s-padding) 72px var(--horizontal-s-padding);
+}
+
+.header-img {
+  max-width: 100%;
+  width: 100%;
+}
