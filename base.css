@@ -13,6 +13,7 @@
 
   /* Primary */
   --blue: #4c7bf3;
+  --blue-hover: #8eabf7;
   --pale-blue: #c2d3ff;
   --dark-pale-blue: #b8c7ed;
 
@@ -32,9 +33,13 @@
   --button: 1rem;
 
   --small: 0.75rem;
+
+  --container-max-width: 640px;
+  --horizontal-padding: 48px;
+  --horizontal-s-padding: 28px;
 }
 
-body {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +62,11 @@ h1 {
 
 .small-text {
   font-size: var(--small);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
 }
 
 @media (max-width: 375px) {
