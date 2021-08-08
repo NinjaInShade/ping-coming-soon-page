@@ -62,8 +62,11 @@
 
 .header-error-text {
   visibility: hidden;
+  position: absolute;
   font-style: italic;
   color: var(--error);
+  bottom: -30px;
+  left: 30px;
 }
 
 .header-error-text-visible {
